@@ -1,0 +1,77 @@
+
+build
+bower_components
+node_modules
+bower_components
+private
+
+# General
+*.jar
+*.war
+*.o
+*.lib
+*.a
+*.so
+*.so.*
+*.out
+*.log
+*.zip
+sonar-project.properties
+git.properties
+*~
+
+# Maven
+target/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# Python
+*.pyc
+os
+sys
+
+# R
+R.Rproj
+.Rproj.user
+.Rhistory
+.RData
+clients/R/vignettes/*.html
+clients/cellbaseR*.tar.gz
+clients/cellbaseR.Rcheck
+# FitNesse
+cellbase-test/fitnesse/FitNesseRoot/files/testResults
+cellbase-test/fitnesse/FitNesseRoot/RecentChanges/*
+cellbase-test/fitnesse/FitNesseRoot/FitNesse/*
